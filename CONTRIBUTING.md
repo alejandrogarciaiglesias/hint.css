@@ -1,24 +1,11 @@
 **Hint** is written in [SASS](http://sass-lang.com/).
 
+It is suggested that you contribute to [Hint.css](https://github.com/chinchang/hint.css). Check [Hint.css contribution guidelines](https://github.com/chinchang/hint.css/blob/master/CONTRIBUTING.md) for more info.
+If your contribution is about the namespaced or "@extend-only" implementation, then contribute to this project.
+
 #Setup
-1. [Fork **Hint.css**](https://help.github.com/articles/fork-a-repo) and clone it on your system.
+1. [Fork the repo](https://help.github.com/articles/fork-a-repo) and clone it on your system.
 2. Create a new branch out off `master` for your fix/feature. `git checkout new-feature master`
-
-#Building
-
-**Hint.css** uses [Grunt](http://gruntjs.com/) for the build process which you need to have installed on your system.
-
-Also there are two additional Grunt tasks required to build the library:
-
-1. [grunt-contrib-mincss](https://npmjs.org/package/grunt-contrib-mincss)
-
-2. [grunt-sass](https://npmjs.org/package/grunt-sass)
-
-To install all the dependencies, run `npm install`.
-
-Once you have the dependencies installed, run `grunt` from the project directory. This will run the default grunt task which compiles the SCSS files into `hint.css` file.
-
-Though this should be sufficient for building the library for testing, in case you want to build the minified version as well you can run the `grunt deploy` command instead.
 
 #Things to remember
 - Do not fix multiple issues in a single commit. Keep them one thing per commit so that they can be picked easily incase only few commits require to be merged.
